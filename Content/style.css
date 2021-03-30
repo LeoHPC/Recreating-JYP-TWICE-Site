@@ -1,0 +1,158 @@
+@font-face {
+	font-family: "Famba Bold";
+	src: url('fonts/Famba-Bold.woff');
+}
+
+@font-face {
+	font-family: "Foundry Context";
+	src: url('fonts/Foundry Context W03 Bd.woff');
+}
+
+@keyframes playing{
+	from {
+		width: 75px;
+	}
+	to {
+		top: 44.5%;
+		left: 47.4%;
+		width: 70px;
+	}
+}
+
+body, html {
+	min-width: 1095px;
+	margin: 0;
+	padding: 0;
+	color: #1D1D1D;
+	height: 100vh;
+	overflow-x: hidden;
+}
+
+.bg-image {
+	position: relative;
+	background-color: #999;
+	height: 100%;
+	background-image: url('img/nayeon.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+
+.opacity {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 1;
+}
+
+.right_content {
+	margin-right: 41px;
+}
+
+.main_album_name a {
+	float: right;
+	text-decoration: none;
+	font-family: "Famba Bold";
+	color: white;
+	font-size: 77.2px;
+	margin-top: 53px;
+	margin-right: 15px;
+}
+
+.mg {
+	position: relative;
+	left: 415px;
+	overflow: hidden;
+}
+
+.notice a {
+	text-decoration: none;
+	float: right;
+	font-family: "Lato";
+	color: white;
+	text-align: left;
+}
+
+#logo img {
+	width: 70px;
+	margin-left: 41px;
+	margin-top: 53px;
+}
+
+#button img {
+	width: 75px;
+	position: absolute;
+	top: 44.3%;
+	left: 47.3%;
+}
+
+#button img:hover {
+	animation-name: playing;
+	animation-duration: 0.3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate; 
+}
+
+#social {
+	float: left;
+	margin-left: 41px;
+	margin-top: 210px;
+}
+
+#social img {
+	filter: invert(100%);
+	display: block;
+	margin-bottom: 27px;
+	width: 20px;
+}
+
+#social img:hover {
+	margin-left: 6px;
+	transition: all 0.6s;
+}
+
+#menu img {
+	width: 28px;
+	float: right;
+	margin-top: -40px;
+}
+
+#hr {
+	float: right;
+	width: 170px;
+	height: 1px;
+	background-color: white;
+	margin-top: 191px;
+	margin-right: 29px;
+}
+
+
+#title {
+	font-family: "Foundry Context";
+	font-size: 18.5px;
+	margin-top: 242px;
+	margin-right: -170px;
+}
+
+#resume {
+	font-family: 'Helvetica', 'arial';
+	font-size: 12px;
+	letter-spacing: 0.7px;
+	margin-top: 260px;
+	margin-right: -170px;
+}
+
+#assign {
+	float: right;
+	font-family: "Famba Bold";
+	font-size: 11.8px;
+	color: white;
+	letter-spacing: 0.095px;
+	margin-top: 480px;
+	margin-right: -200px;}
+
+#assign span {
+	font-size: 10.2px;
+	color: #129BE6;
+}
