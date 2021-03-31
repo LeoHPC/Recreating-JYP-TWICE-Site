@@ -8,7 +8,7 @@
 
 ![My-version](https://github.com/LeoHPC/Recreating-JYP-TWICE-Site/blob/main/Content/img/my-version.gif)
 
-### Actually, I'm trying to recreate the JYP TWICE website to improve my web developmente skills. The original website have some animations that I can't replicate in the moment, but I'm studying to work around this situation! Stay tuned for the upcoming updates! 
+### Actually, I'm trying to recreate the JYP TWICE website to improve my web developmente skills. The original website have some animations that I can't replicate in the moment, but I'm studying to work around this situation! I don't know the exact fonts used in the original version, so I looked for the most similar ones. Stay tuned for the upcoming updates! 
 
 ## 💻 Technologies
 
