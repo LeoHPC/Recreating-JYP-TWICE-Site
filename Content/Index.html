@@ -12,6 +12,9 @@
 	<!--NORMALIZE-->
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 
+	<!--ANIMATE-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 	<!--FAVICON-->
 	<link rel="shortcut icon" href="img/favicons.png">
 
@@ -23,7 +26,7 @@
 </head>
 <body>
 
-	<div class="bg-image"><!--MAIN CONTAINER-->
+	<div class="bg-image wow animate__animated animate__fadeIn" data-wow-delay="0.1s"><!--MAIN CONTAINER-->
 
 		<div class="opacity"><!--BLACK SHADE-->
 
@@ -51,15 +54,17 @@
 					<a href=""><img src="img/menu.png"></a>
 				</div><!--END MENU-->
 
-				<div class="main_album_name wow fadeInRight" data-wow-delay="0.2s"><!--MAIN TITLE-->
-					<a href="https://twice.jype.com/Default/DiscographyView?AamSeq=130">CRY FOR ME</a>
+				<div class="main_album_name"><!--MAIN TITLE-->
+					<div class="wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
+						<a href="https://twice.jype.com/Default/DiscographyView?AamSeq=130">CRY FOR ME</a>
+					</div>
 				</div><!--END MAIN TITLE-->
 
 				<div class="mg"><!--GENERAL MARGIN-->
 
-					<div id="hr"></div><!--HORIZONTAL LINE-->
+					<div id="hr" class="wow animate__animated animate__fadeInRight" data-wow-delay="0.2s"></div><!--HORIZONTAL LINE-->
 
-					<div class="notice"><!--NOTICES-->
+					<div class="notice wow animate__animated animate__fadeInRight" data-wow-delay="0.5s"><!--NOTICES-->
 						<a id="title" href="https://twice.jype.com/Default/NoticeList">NOTICE</a><br>
 						<a id="resume" href="https://twice.jype.com/Default/NoticeView?AnSeq=2593">Happy Birthday MINA</a>
 					</div><!--END NOTICES-->
@@ -79,6 +84,12 @@
 		</div><!--END BLACK SHADE-->
 
 	</div><!--END MAIN CONTAINER-->
+
+	<!--WOW-->
+	<script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 
 </body>
 </html>
